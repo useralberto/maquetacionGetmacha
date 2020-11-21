@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+a:focus {
+  outline: -webkit-focus-ring-color auto 0;
+  text-decoration: none !important;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+footer {
+  margin-top: auto;
+}
+
+img:not([alt]) {
+  border: 4px red dashed !important;
+}
+
