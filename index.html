@@ -4,16 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="./public/img/favicon.svg" type="image/x-icon">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,700;1,100;1,200;1,300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./public/vendor/bootstrap4/css/bootstrap.min.css">
   <link rel="stylesheet" href="./public/css/app.css">
   <title>Matcha Blog Creator: The Only All-in-One Blogging Tool for Ecommerce</title>
 </head>
 <body>
 
-  <header class="header">
-    <article class="container-fluid my-5">
+  <header class="header sticky-top bg-white">
+    <article class="container-fluid mt-5">
       <nav class="d-flex justify-content-around align-items-center py-3">
         
         <a href="#" class="header__logo">
@@ -51,7 +49,7 @@
         </ul>
 
         <div class="d-block d-lg-none">
-          <button type="button" class="btn btn-outline-secondary">Secondary</button>
+          <button type="button" class="btn btn-outline-secondary">Menu</button>
         </div>
 
       </nav>
@@ -59,29 +57,347 @@
   </header>
 
   <main class="py-5">
-    <article class="bannertop">
-      <section class="container">
+    <article class="bannertop mb-5 pb-5">
+      <section class="container-fluid">
         <div class="row">
-          <section class="col-12 col-md-6">
+          <section class="col-12 col-md-6 py-5">
             <h1 class="bannertop__title">Stop paying for visits with an SEO <br> optimized blog.</h1>
+            <p class="py-3 bannertop__description">Blog better with the first all-in-one blogging tool for growing ecommerce brands. Connect your blog, create and optimize blog posts for each stage of the buyer’s journey, and measure the results.</p>
+            <div class="bannertop__groupBottonImg">
+              <a class="btn btngroup mr-3" href="#">Start free trial</a>
+              <img src="./public/img/shopify-stars.svg" alt="shopify-stars" class="img-fluid">
+            </div>
+            <p class="textbotton text-left">
+              Blog better today with a <strong>free 7-day trial.</strong><br>
+              <strong>No credit card</strong> required.
+            </p>
           </section>
           <section class="col-12 col-md-6">
-            
+            <div class="homeVideo d-none d-md-block mt-5">
+              <img src="./public/img/1.png" alt="img" class="homeVideo__img1 img-fluid">
+              <img src="./public/img/2.png" alt="img" class="homeVideo__img2 img-fluid">
+              <img src="./public/img/3.png" alt="img" class="homeVideo__img3 img-fluid">
+              <img src="./public/img/4.png" alt="img" class="homeVideo__img4 img-fluid">
+              <img src="./public/img/5.png" alt="img" class="homeVideo__img5 img-fluid">
+              <img src="./public/img/6.png" alt="img" class="homeVideo__img6 img-fluid">
+              <div class="homeVideo__play text-center">
+                <a href="#" class="px-4 py-4">
+                  <img src="./public/img/svgexport-18.svg" alt="img">
+                  <span class="d-block pt-2">Press Play</span>
+                </a>
+              </div>
+            </div>
+            <div class="homeVideo__video d-block d-md-none">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/l498-ryxzYY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </section>
+        </div>
+        <p class="py-4 text-center bannertop__titleTrusted">TRUSTED BY GROWING ECOMMERCE BRANDS</p>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-6 pb-5 bannertop__gridImg">
+          <div class="col"><img src="./public/img/superfeet.png" alt="img" class="img-fluid"></div>
+          <div class="col"><img src="./public/img/spirithoods.png" alt="img" class="img-fluid"></div>
+          <div class="col"><img src="./public/img/seatosummit.png" alt="img" class="img-fluid"></div>
+          <div class="col"><img src="./public/img/osprey.png" alt="img" class="img-fluid"></div>
+          <div class="col"><img src="./public/img/oars.png" alt="img" class="img-fluid"></div>
+          <div class="col"><img src="./public/img/everly.png" alt="img" class="img-fluid"></div>
+        </div>
+      </section>
+    </article>
+
+    <article class="py-5 my-5 gridcardFeatures">
+      <section class="container-fluid py-5">
+        <h2 class="gridcardFeatures__title text-center">Top Features</h2>
+        <p class="gridcardFeatures__subtitle text-center py-2">Your blog is your most powerful asset to build, engage, and retain a loyal audience.</p>
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 py-5 text-center">
+          <div class="col">
+            <div class="gridcardFeatures__headerimg">
+              <img src="./public/img/Group-376-1.png" alt="img" class="img-fluid">
+            </div>
+            <a href="#" class="d-block pt-4 gridcardFeatures__titleCard">
+              <h3>Create content that converts.</h3>
+            </a>
+            <p class="pt-2 gridcardFeatures__subtitlecard px-1">Write and format blog posts within Matcha or update existing posts with Matcha’s lead and sale conversion tools. Optimize for SEO, then schedule or publish immediately to your blog.
+            </p>
+          </div>
+          <div class="col">
+            <div class="gridcardFeatures__headerimg">
+              <img src="./public/img/Group-381.png" alt="img" class="img-fluid">
+            </div>
+            <a href="#" class="d-block pt-4 gridcardFeatures__titleCard">
+              <h3>Embed your products and collections.</h3>
+            </a>
+            <p class="pt-2 gridcardFeatures__subtitlecard px-1">
+              Turn your readers into customers by embedding Shopify products and product collections into or beneath your blog posts with “View Product” or “Add to Cart” CTAs.
+            </p>
+          </div>
+          <div class="col">
+            <div class="gridcardFeatures__headerimg">
+              <img src="./public/img/Group-406-1.png" alt="img" class="img-fluid">
+            </div>
+            <a href="#" class="d-block pt-4 gridcardFeatures__titleCard">
+              <h3>Analyze full-funnel content insights.</h3>
+            </a>
+            <p class="pt-2 gridcardFeatures__subtitlecard px-1">
+              Make data-driven decisions for your content strategy with in-depth analytics, from traffic, engagement, and read time to influenced email subscribers and revenue.
+            </p>
+          </div>
+        </div>
+      </section>
+    </article>
+
+    <article class="tools my-5 py-5">
+      <section class="container-fluid">
+        <h3 class="py-5 text-center tools__title">Tools to help you publish more and convert readers.</h3>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+          <div class="col my-3">
+            <article class="card text-center">
+              <img src="./public/img/feature-platform-1.png" alt="img" class="img-fluid d-block mx-auto mt-5">
+              <div class="card-body">
+                <h4 class="title">Grow your email list with locked content.</h4>
+                <p class="description pb-3">Turn readers into subscribers with customizable forms. Create content exclusive to your brand's community.</p>
+              </div>
+            </article>
+          </div>
+          <div class="col my-3">
+            <article class="card text-center">
+              <img src="./public/img/feature-platform-3.png" alt="img" class="img-fluid d-block mx-auto mt-5">
+              <div class="card-body">
+                <h3 class="title">Segment subscribers by their content interests.</h3>
+                <p class="description pb-3">Instantly export rich subscriber data to Mailchimp or Klaviyo for targeted email campaigns.</p>
+              </div>
+            </article>
+          </div>
+          <div class="col my-3">
+            <article class="card text-center">
+              <img src="./public/img/feature-blog-email.png" alt="img" class="img-fluid d-block mx-auto mt-5">
+              <div class="card-body">
+                <h3 class="title">Schedule content to social and preview content in email.</h3>
+                <p class="description">Schedule posts to your Facebook Page, and easily embed beautiful content previews into your Mailchimp or Klaviyo email campaigns.</p>
+              </div>
+            </article>
+          </div>
+          <div class="col my-3">
+            <article class="card text-center">
+              <img src="./public/img/feature-library-1.png" alt="img" class="img-fluid d-block mx-auto mt-5">
+              <div class="card-body">
+                <h3 class="title">Increase publishing frequency with licensed content.</h3>
+                <p class="description">Explore a library of 12,000+ SEO-friendly articles. Customize to your brand, add conversion tools, and publish instantly to your blog.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </article>
+
+    <article class="my-5 py-5 slider">
+      <section class="container-fluid py-5 my-5">
+        
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4 slider__content my-3">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner px-lg-3">
+                <div class="carousel-item active">
+                  <div class="card">
+                    <div class="card-header p-0">
+                      <img class="card-img-top" src="./public/img/persona1.jpeg" alt="Card image cap">
+                      <div class="insignia">
+                        <img src="./public/img/insignia1.png" alt="logo" class="img-fluid">
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="titlecardTop">Oars + Alps</h5>
+                      <h2 class="titlecard">How Oars + Alps Tracks Engagement and Connects Blog Content to Commerce</h2>
+                      <div class="row">
+                        <div class="col-12 col-md-2 d-flex flex-column justify-content-center align-items-center">
+                          <img src="./public/img/icon_cart.png" alt="icon-card" class="img-fluid imgIcon">
+                        </div>
+                        <div class="col-12 col-md-10">
+                          <p class="descriptioncard pt-2"> Within 10 days of publication, Oars + Alps' blog post influenced $207 in revenue.</p>
+                        </div>
+                      </div>
+                      <a class="btn btn-enlace btn-block my-3 py-2" href="#" role="button">See Case Study</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="card">
+                    <div class="card-header p-0">
+                      <img class="card-img-top" src="./public/img/persona2.jpg" alt="Card image cap">
+                      <div class="insignia insignia2">
+                        <img src="./public/img/insignia2.png" alt="logo" class="img-fluid">
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="titlecardTop">Oars + Alps</h5>
+                      <h2 class="titlecard">How Oars + Alps Tracks Engagement and Connects Blog Content to Commerce</h2>
+                      <div class="row">
+                        <div class="col-12 col-md-2 d-flex flex-column justify-content-center align-items-center">
+                          <img src="./public/img/icon_cart.png" alt="icon-card" class="img-fluid imgIcon">
+                        </div>
+                        <div class="col-12 col-md-10">
+                          <p class="descriptioncard pt-2"> Within 10 days of publication, Oars + Alps' blog post influenced $207 in revenue.</p>
+                        </div>
+                      </div>
+                      <a class="btn btn-enlace btn-block my-3 py-2" href="#" role="button">See Case Study</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="card">
+                    <div class="card-header p-0">
+                      <img class="card-img-top" src="./public/img/persona3.png" alt="Card image cap">
+                      <div class="insignia insignia3">
+                        <img src="./public/img/insignia3.png" alt="logo" class="img-fluid">
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="titlecardTop">Oars + Alps</h5>
+                      <h2 class="titlecard">How Oars + Alps Tracks Engagement and Connects Blog Content to Commerce</h2>
+                      <div class="row">
+                        <div class="col-12 col-md-2 d-flex flex-column justify-content-center align-items-center">
+                          <img src="./public/img/icon_cart.png" alt="icon-card" class="img-fluid imgIcon">
+                        </div>
+                        <div class="col-12 col-md-10">
+                          <p class="descriptioncard pt-2"> Within 10 days of publication, Oars + Alps' blog post influenced $207 in revenue.</p>
+                        </div>
+                      </div>
+                      <a class="btn btn-enlace btn-block my-3 py-2" href="#" role="button">See Case Study</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-8">
+            <h3 class="title py-5">Growing ecommerce brands rely on Matcha.</h3>
+            <div class="pt-2 description">
+              <p>
+                Growing direct-to-consumer brands blog because they know the power of content for growing sustainably and building a loyal audience.
+              </p>
+              <p>
+                Brands that see consistent success with their blogging efforts use Matcha because no other blogging tool was built with all of the goals of ecommerce in mind.
+              </p>
+              <p>              
+                Join hundreds of ecommerce marketers and direct-to-consumer brands who rely on Matcha for blog post creation and optimization, reader conversion tools, and in-depth content analytics that empower their businesses to grow their traffic, engagement, email list, and sales with a blog.
+              </p>
+            </div>
+            <a class="btn enlace py-2 px-3" href="#" role="button">Who Uses Matcha?</a>
+          </div>
+        </div>
+
+      </section>
+    </article>
+
+    <article class="my-5 py-5">
+      <section class="container-fluid">
+        <div class="row row-cols-1 row-cols-md-2">
+          <div class="col my-3">
+            <article class="card">
+              <img src="./public/img/card1.jpg" alt="" class="img-fluid">
+            </article>
+          </div>
+          <div class="col my-3">
+            <article class="card">
+              <img src="./public/img/card2.jpg" alt="" class="img-fluid">
+            </article>
+          </div>
+          <div class="col my-3">
+            <article class="card">
+              <img src="./public/img/card3.jpg" alt="" class="img-fluid">
+            </article>
+          </div>
+          <div class="col my-3">
+            <article class="card">
+              <img src="./public/img/card4.jpg" alt="" class="img-fluid">
+            </article>
+          </div>
+        </div>
+      </section>
+
+    </article>
+
+  </main>
+
+  <footer class="pt-5">
+    <article class="container-fluid">
+      <section class="banner py-4">
+        <div class="row pt-5">
+          <div class="col-12 col-md-8 d-flex flex-column justify-content-center align-items-center">
+            <div class="container px-5">
+              <h3>Get started for free. <br> Just $9/m to blog better.</h3>
+              <p class="pt-3">Want to learn more? <a href="#">Schedule a demo →</a></p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 d-flex flex-column justify-content-center align-items-center">
+            <div class="container">
+              <a class="btn btn-free" href="#" role="button">Get started free →</a>
+              <p class="pt-3 textMini">Create a better blog today with a free 7-day trial. <br>
+                No credit card required.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </article>
+
+    <article class="py-4">
+      <section class="container-fluid py-5 links">
+        <div class="row">
+          <section class="col-12 col-md-6 px-5 subs my-2">
+            <p class="title2">SUBSCRIBE</p>
+            <p>Get the latest tips and trends for ecommerce marketing with the <br> weekly Morning Matcha.</p>
+            <form action="">
+              <div class="input-group mb-3" style="width:23rem">
+                <input type="email" class="form-control" placeholder="email" aria-label="email" aria-describedby="basic-addon1">
+                <div class="input-group-prepend">
+                  <button class="btn" type="button">Subscribe</button>
+                </div>
+              </div>
+            </form>
+          </section>
+          <section class="col-12 col-md-2 my-2">
+            <h5>PRODUCTS</h5>
+            <ul class="pl-0 pt-2">
+              <li><a href="#">Blog Creator</a></li>
+              <li> <a href="#">Content library</a></li>
+            </ul>
+          </section>
+          <section class="col-12 col-md-2 my-2">
+            <h5>MATCHA</h5>
+            <ul class="pl-0">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Story</a></li>
+              <li><a href="#">Team</a></li>
+              <li><a href="#">Careers</a></li>
+            </ul>
+          </section>
+          <section class="col-12 col-md-2 my-2">
+            <h5>RESOURCES</h5>
+            <ul class="pl-0">
+              <li><a href="#">Privacy</a></li>
+              <li><a href="#">Terms</a></li>
+              <li> <a href="#">Support</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
           </section>
         </div>
       </section>
     </article>
-  </main>
 
-  <footer class="pt-5 bg-dark">
-    <article class="contiainer">
-      <section class="py-4">
-
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. A facilis similique accusantium architecto, ea officiis aspernatur odio. Dolorem, ipsa odio. Facere, voluptatem vel illum accusamus harum architecto provident iste minima.
+    <article class="container-fluid py-5">
+      <section class="pb-4 d-flex justify-content-between">
+        <img src="./public/img/logo.svg" alt="" class="img-fluid">
+        <p>© 2020 Matcha. All Rights Reserved</p>
       </section>
     </article>
   </footer>
 
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="./public/vendor/bootstrap4/js/bootstrap.min.js" type="text/javascript"></script>
   <script src="./public/js/app.js" type="text/javascript"></script>
 </body>
